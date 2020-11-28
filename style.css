@@ -52,7 +52,7 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: #e8e8e8;
   flex-basis: 30%;
   max-width: 30%;
   text-align: center;

@@ -89,7 +89,7 @@ addBookButton.addEventListener('click', () => {
     const pages = pagesTextField.value;
     const status = checkbox.checked;
 
-    if (title == '' || author == '' || pages == '' || status == '') {
+    if (title == '' || author == '' || pages == '') {
         alert('Please fill the remaining fields!')
     } else {
     const newBook = new Book(title, author, pages, status);
