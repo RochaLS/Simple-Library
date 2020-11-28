@@ -1,4 +1,4 @@
-# Simple-Libray
+# Simple-Library
 ![](simple-library.gif)
 
 ## Description
