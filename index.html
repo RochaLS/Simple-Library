@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Your Book Library</title>
 </head>
 
 <body>
-    <h1>Your Book Library</h1>
+    <h1 class="header">Your Book Library</h1>
+    <div class="container">
+        <div class="card-container">
+        </div>
+        <div class="form-container">
+            <form>
+                <label for="btitle">Book Title:</label><br>
+                <input type="text" id="btitle" name="btitle"><br>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="pages">Pages:</label><br>
+                <input type="text" id="Pages" name="Pages"><br>
+                <label for="status">Read:</label>
+                <input type="checkbox" name="status" id="status"><br>
+            </form>
+            <button id="addBookButton">Add New Book</button>
+        </div>
+    </div>
+
     <script src="./library.js"></script>
 </body>
 
